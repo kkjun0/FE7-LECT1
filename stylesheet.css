@@ -1,32 +1,85 @@
-h1{
-  background-color: black;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color:white;
+  color: var(--text-color);
+  line-height: 1.6;
+  letter-spacing: 0.5px;
 }
-input:checked{
-  width: 40px;
+
+header {
+  background-color: #6c63ff;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: sticky;
+  top: 0;
 }
-input:nth-child(odd){
-  background-color: red;
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px 20px;
 }
-input:nth-child(even){
-  background-color: blue;
+
+.intro {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
-input[type=checkbox]{
-  display: none;
+
+.intro img {
+  width: 150px;
+  border-radius: 8px;
 }
-#id > label{
+
+section {
+  margin-top: 40px;
+}
+
+ul {
+  list-style-type: circle;
+  padding-left: 20px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
   display: block;
-  height: 50rem;
+  margin-top: 10px;
+  font-weight: bold;
 }
-section{
-  border: 1px solid black;
-  margin: 10px 50px 10px 100px;
-  padding: 10px;
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
-span{
-  display: inline-block;
-  border-radius: 30%;
-  border: 1px solid black;
+
+footer {
+  background-color: #e9ecef;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
 }
-p{
-  line-height: 20px;
+
+button{
+  margin: 20px 0px;
+}
+#offer{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+
+}
+
+#offerfooter{
+  background-color: #e9ecef;
+  text-align: center;
+  padding: 15px;
 }

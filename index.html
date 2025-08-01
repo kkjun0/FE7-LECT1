@@ -2,45 +2,63 @@
 <html lang="ko">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="김준영의 개발자 포트폴리오 페이지입니다.">
     <title>포트폴리오</title>
-    <link rel="stylesheet" href="test.css">
+    <link rel="stylesheet" href="stylesheet.css">
   </head>
   <body>
-    <header>
-      <h1 style="color:rgb(22, 132, 241);">안녕하세요 김준영입니다.</h1>
-    </header>
-      <hr>
-    <main>
-      <img src="https://dt40dm21pj8em.cloudfront.net/uploads/froala/file/3822/%EA%B0%9C%EB%B0%9C%EC%9E%90%20%EC%B7%A8%EC%97%851.jpg"
-      alt="개발자 관련이미지" width="500px">
-      <section>
-        <h3>간단한 자기소개</h3>
+  <header>
+    <h1>김준영</h1>
+    <p>예비 프론트엔드 개발자</p>
+  </header>
+
+  <main>
+    <section class="intro">
+      <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDExMDVfMTk4%2FMDAxNzMwNzg5NjcyOTcy._VvywxC2E4O2EoTfNrIcdiSHj2pODmerphCMJCMYvaIg.JQiGisbvl2EIGqV70AuNf4FUh2faXB3LEH4NCV_csUYg.PNG%2Fimage.png&type=sc960_832" 
+      alt="프로필 이미지">
+      <div>
+        <h2>자기소개</h2>
         <p>
-          컴퓨터공학을 전공하고 있는 대학생입니다. <br>
-          개발자로서의 역량과 팀 협업 능력을 키우고 싶어 방법을 찾던 중 데브코스를 알게 되었고, 이를 위해 휴학 후 지원하게 되었습니다. <br>
-          전공생이지만 웹 개발은 아직 배워야 할 부분이 많습니다. 남은 과정을 성실히 이수하며 성장하는 개발자가 되겠습니다.
+          컴퓨터공학을 전공 중인 학생입니다.<br>
+          프론트엔드 개발자로 성장하기 위해 데브코스를 수강하고 있습니다.<br>
+          팀 프로젝트와 협업 경험을 통해 실력을 키우고 싶습니다.
         </p>
-      </section>
-      <hr>
+      </div>
+    </section>
+
+    <section>
+      <h2>관심사</h2>
       <ul>
-        <li>
-          <a href="information.html">기본 정보</a>
-        </li>
-        <li>
-          <a href="Personality.html">성격</a>
-        </li>
+        <li>웹 프론트엔드 개발</li>
+        <li>React, JavaScript 학습</li>
+        <li>사용자 경험(UX/UI) 설계</li>
       </ul>
-      <form action="">
-        <input id="root" type="checkbox">
-        <label for="root"></label>
-      </form>
-    </main>
-      <hr>
-    <footer>
-      2025 김준영
-    </footer>
-    <hr>
-  </body>
+    </section>
+
+    <section>
+      <h2>기본 정보</h2>
+        <span for="name"><b>이름 :</b> 김준영</span><br>
+        <span for="name"><b>이메일 :</b> qwer1234@naver.com</span><br>
+        <span for="name"><b>메시지 :</b> 010-1234-5678</span><br>
+        <span for="name"><b>주소 :</b> 경기도 시흥시 ~</span><br>
+      
+    </section>
+    <section>
+      <h2>제안서</h2>
+        <label for="name">회사명:</label>
+        <input id="name" type="text">
+        <label for="name">직무명:</label>
+        <input id="name" type="text">
+        <label for="name">연봉:</label>
+        <input id="name" type="text"><br>
+        <a href="offer.html"><button>제안하기</button></a>
+    </section>
+  </main>
+
+  <footer>
+    <p>2025 김준영 | 
+      <a href="https://github.com/kkjun0">GitHub</a>
+    </p>
+  </footer>
+</body>
 </html>
