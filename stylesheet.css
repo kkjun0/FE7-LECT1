@@ -1,0 +1,32 @@
+h1{
+  background-color: black;
+}
+input:checked{
+  width: 40px;
+}
+input:nth-child(odd){
+  background-color: red;
+}
+input:nth-child(even){
+  background-color: blue;
+}
+input[type=checkbox]{
+  display: none;
+}
+#id > label{
+  display: block;
+  height: 50rem;
+}
+section{
+  border: 1px solid black;
+  margin: 10px 50px 10px 100px;
+  padding: 10px;
+}
+span{
+  display: inline-block;
+  border-radius: 30%;
+  border: 1px solid black;
+}
+p{
+  line-height: 20px;
+}
